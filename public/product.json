@@ -1,0 +1,129 @@
+[
+    {
+      "id": 1,
+      "name": "iPhone 15",
+      "description": "The latest and greatest smartphone from Apple, featuring a sleek design, a powerful A17 Bionic chip for lightning-fast performance, a cutting-edge triple-lens camera system for capturing pro-quality photos and videos, and a long-lasting battery to keep you connected all day. Available in a variety of stunning colors.",
+      "imageUrl": "https://i.ibb.co/Y4958Ts/iphone-removebg-preview.png",
+      "price": 1299.00,
+      "category": "Electronics",
+      "type": "Phone",
+      "protection": "14 days Money back guarantee",
+      "warranty": "1 year service warranty",
+      "reviews" : "0",
+      "stock" : "100",
+      "sold" : "5",
+      "supplierInfo" : {
+        "supplierName" : "iphone Bangladesh",
+        "supplierLocation" : "Bangladesh",
+        "status" : "Verified Seller",
+        "shipping" : "worldwide"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Nike Running Shoes", 
+      "description": "A comfortable and stylish Nike shoe, perfect for running, training, or everyday wear. Featuring a breathable mesh upper for superior ventilation, a responsive cushioning system for maximum comfort, and a durable outsole for long-lasting performance. Choose from a wide range of styles and colors to find the perfect pair for you.",
+      "imageUrl": "https://i.ibb.co/zhYms2q/nike.webp",
+      "price": 79.99,
+      "category": "Clothing",
+      "type": "Shoes",
+      "protection": "14 days Money back guarantee",
+      "warranty": "No warranty",
+      "reviews" : "0",
+      "stock" : "100",
+      "sold" : "5",
+      "supplierInfo" : {
+        "supplierName" : "Nike Bangladesh",
+        "supplierLocation" : "Bangladesh",
+        "status" : "Verified Seller",
+        "shipping" : "worldwide"
+      }
+
+    },
+    {
+      "id": 3,
+      "name": "Dell XPS Laptop", 
+      "description": "A powerful and portable Dell laptop, ideal for work, school, or entertainment. Boasting a high-resolution display for stunning visuals, an 11th Gen Intel Core processor for seamless multitasking, and a long battery life to keep you productive on the go. This laptop comes equipped with the latest operating system and plenty of storage space to handle all your needs.",
+      "imageUrl": "https://i.ibb.co/XzchQJf/dell-removebg-preview.png",
+      "price": 899.99,
+      "category": "Electronics",
+      "type": "Laptop",
+      "protection": "14 days Money back guarantee",
+      "warranty": "1 year service warranty",
+      "reviews" : "0",
+      "stock" : "100",
+      "sold" : "5",
+      "supplierInfo" : {
+        "supplierName" : "Dell Bangladesh",
+        "supplierLocation" : "Bangladesh",
+        "status" : "Verified Seller",
+        "shipping" : "worldwide"
+      }
+
+    },
+    {
+      "id": 4,
+      "name": "Canon EOS Camera",
+      "description": "Capture stunning photos and videos with this high-quality Canon camera. Featuring a powerful image sensor for exceptional image quality, a versatile zoom lens for capturing close-up or wide-angle shots, and a range of shooting modes to suit any situation. This camera allows you to express your creativity and document your life's moments in breathtaking detail.",
+      "imageUrl": "https://i.ibb.co/M6DQV7Y/canon-removebg-preview.png",
+      "price": 599.00,
+      "category": "Electronics",
+      "type": "Camera",
+      "protection": "14 days Money back guarantee",
+      "warranty": "1 year service warranty",
+      "reviews" : "0",
+      "stock" : "100",
+      "sold" : "5",
+      "supplierInfo" : {
+        "supplierName" : "Canon Bangladesh",
+        "supplierLocation" : "Bangladesh",
+        "status" : "Verified Seller",
+        "shipping" : "worldwide"
+      }
+
+    },
+    {
+      "id": 5,
+      "name": "Gucci Logo T-Shirt",  
+      "description": "A luxurious and stylish Gucci T-shirt, crafted from premium cotton for a soft and comfortable feel. Featuring the iconic Gucci logo or an eye-catching design, this t-shirt adds a touch of luxury to your everyday wardrobe. Perfect for casual outings or layering under a jacket for a more sophisticated look.",
+      "imageUrl": "https://i.ibb.co/CPbYXbw/gucchi-removebg-preview.png",
+      "price": 249.99,
+      "category": "Clothing",
+      "type": "T-shirt",
+      "protection": "14 days Money back guarantee",
+      "warranty": "No warranty",
+      "reviews" : "0",
+      "stock" : "100",
+      "sold" : "5",
+      "supplierInfo" :{
+        "supplierName" : "Gucci Bangladesh",
+        "supplierLocation" : "Bangladesh",
+        "status" : "Verified Seller",
+        "shipping" : "worldwide"
+
+      }
+    },
+    {
+      "id": 6,
+      "name": "Titan Sapphire Watch",  
+      "description": "A sophisticated and elegant Titan watch, crafted with high-quality materials for a timeless design. Featuring a scratch-resistant sapphire crystal, a reliable quartz movement, and a sleek stainless steel case. This watch is water-resistant, making it perfect for everyday wear. Choose from a variety of styles and colors to find the perfect watch to complement your personality.",
+      "imageUrl": "https://i.ibb.co/QrvHWJL/titan-removebg-preview.png",
+      "price": 199.00,
+      "category": "Accessories",
+      "type": "wrist watch",
+      "protection": "14 days Money back guarantee",
+      "warranty": "1 year service warranty",
+      "reviews" : "0",
+      "stock" : "100",
+      "sold" : "5",
+      "supplierInfo":{
+        "supplierName" : "Titan Bangladesh",
+        "supplierLocation" : "Bangladesh",
+        "status" : "Verified Seller",
+        "shipping" : "worldwide"
+      }
+
+    }
+  ]
+  
+  
