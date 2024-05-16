@@ -6,7 +6,7 @@ import Swal from 'sweetalert2'
 const MyCart = () => {
     const [cartItems, setCartItems] = useState([])
     useEffect(() => {
-        fetch('http://localhost:5000/mycart')
+        fetch('https://brand-dummy-server.vercel.app/mycart')
             .then(res => res.json())
             .then(data => setCartItems(data));
     }, []);
@@ -36,7 +36,7 @@ const MyCart = () => {
             if (result.isConfirmed==true) {
 
 
-                fetch(`http://localhost:5000/mycart/${_id}`, {
+                fetch(`https://brand-dummy-server.vercel.app/mycart/${_id}`, {
                     method: 'DELETE'
                 })
                     .then(res => res.json())

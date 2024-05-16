@@ -15,7 +15,7 @@ const SupplierInfo = ({product}) => {
         const addedProduct = { name, price, productId, description , imageUrl}
 
 
-        fetch('http://localhost:5000/mycart', {
+        fetch('https://brand-dummy-server.vercel.app/mycart', {
             method: "POST",
             headers: {
                 'content-type': 'application/json'
