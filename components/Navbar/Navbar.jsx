@@ -22,7 +22,7 @@ const Navbar = () => {
           <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow text-[#0D6EFD] rounded-box w-52">
             <li className='text-3xl'><a><CgProfile /> Profile</a></li>
             <li className='text-3xl'><a><MdOutlineMessage />Message</a></li>
-            <li className='text-3xl'><a><FaShoppingCart />Cart</a></li>
+            <li className='text-3xl'><Link href={`/MyCart`}><FaShoppingCart />Cart</Link></li>
           </ul>
         </div>
         <Link href={`/`} className="btn btn-ghost text-xl">

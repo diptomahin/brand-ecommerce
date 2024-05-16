@@ -56,11 +56,13 @@ const MyCart = () => {
             }
         })
     }
+{/*
 
+ */}
 
     if (cartItems) {
         return (
-            <div className="w-11/12 mx-auto flex gap-5">
+            <div className="w-11/12 mx-auto lg:flex gap-5">
                 <div className=''>
                     {
                         cartItems.map(product =>
@@ -72,7 +74,7 @@ const MyCart = () => {
                                         <p className="text-end">${product.price}</p>
                                     </div>
                                     <p className='w-8/12 text-xm'>{product.description.slice(0, 70)}</p>
-                                    <div className="card-actions my-2 ">
+                                    <div className="card-actions my-2 hidden md:flex md:flex-row">
                                         <button onClick={()=>handleDelete(product._id)} className=" text-xm shadow-xl p-2 rounded-lg   bg-white text-red-600 hover:bg-red-600 hover:text-white ">Remove</button>
                                         <button className=" text-xm shadow-xl p-2 rounded-lg   text-[#0D6EFD] bg-white hover:text-white hover:bg-[#0D6EFD]">Save for later</button>
                                     </div>
@@ -81,7 +83,7 @@ const MyCart = () => {
                         )
                     }
                 </div>
-                <div className='w-4/12 mt-5'>
+                <div className=' md:w-8/12 lg:w-4/12 py-3 mt-5'>
                     <div className="card  shadow-xl ">
                         <div className='px-4 py-5'>
                         <h1 className="my-3 text-xl">Have a coupon ?</h1>

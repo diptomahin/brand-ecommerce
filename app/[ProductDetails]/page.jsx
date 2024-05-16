@@ -18,11 +18,11 @@ const ProductDetails = ({ params }) => {
     if (product) {
         return (
             <div>
-                <div className='w-11/12 mx-auto mt-10 flex gap-7'>
+                <div className='w-11/12 mx-auto mt-10 md:flex gap-7'>
                     <MainDetails className="" product={product}></MainDetails>
                     <SupplierInfo className="" product={product}></SupplierInfo>
                 </div>
-                <div className='w-11/12 mx-auto my-10 flex gap-7'>
+                <div className='w-11/12 mx-auto my-10 md:flex gap-7'>
                     <Description  product={product}></Description>
                     <MayLike id={product._id}></MayLike>
                 </div>

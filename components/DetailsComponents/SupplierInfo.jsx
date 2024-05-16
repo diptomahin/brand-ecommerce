@@ -43,9 +43,11 @@ const SupplierInfo = ({product}) => {
                 <div className="card-body">
                     <h2 className="card-title text-black"><span className='text-3xl'><RxAvatar/></span>{supplierInfo.supplierName}</h2>
                     <hr/>
-                    <p className='text-lg flex gap-5 mt-5'><FaLocationDot />{supplierInfo.supplierLocation}</p>
-                    <p className='text-xl flex gap-5 my-3 '><MdVerifiedUser />{supplierInfo.status}</p>
-                    <p className='text-xl flex gap-5 mb-5'><FaShippingFast />{supplierInfo.shipping}</p>
+                    <div className="flex md:flex-col">
+                    <p className='text-lg flex gap-5 my-2 md:mt-5'><FaLocationDot />{supplierInfo.supplierLocation}</p>
+                    <p className='text-xl flex gap-5 my-2 md:my-3 '><MdVerifiedUser />{supplierInfo.status}</p>
+                    <p className='text-xl flex gap-5 my-2 md:mb-5'><FaShippingFast />{supplierInfo.shipping}</p>
+                    </div>
                     <hr/>
                     <div className="card-actions justify-end">
                         <button onClick={handleAddToCart} className=" text-lg font-bold btn bg-[#0D6EFD] text-white hover:bg-white hover:text-[#0D6EFD] w-full">ADD To Cart</button>

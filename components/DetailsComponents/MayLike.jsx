@@ -14,7 +14,7 @@ const MayLike = ({id}) => {
  if(products)
     {
         return (
-            <div className="">
+            <div className=" hidden md:flex md:flex-col">
                 {
                     products.map(product =>
                         <div key={product.id} className="card card-side shadow-xl">

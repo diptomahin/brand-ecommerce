@@ -8,7 +8,7 @@ const MainDetails = ({ product }) => {
     const { name, description,reviews, imageUrl,stock, price, category, type, protection, warranty, sold } = product;
     const givenPrice = price + (price * 0.4);
     return (
-        <div className="card card-side w-8/12 shadow-xl">
+        <div className="card lg:card-side md:w-8/12 shadow-xl">
             <figure><Image alt='Product Image' width={200} height={150} src={imageUrl}></Image></figure>
             <div className="card-body">
                 <h2 className="card-title text-black">{name}</h2>

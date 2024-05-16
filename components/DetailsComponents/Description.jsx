@@ -5,7 +5,7 @@ import 'react-tabs/style/react-tabs.css';
 const Description = ({ product }) => {
     const { description } = product
     return (
-        <div className='w-8/12 card card-side  shadow-xl p-10'>
+        <div className='md:w-8/12 card card-side  shadow-xl p-10'>
             <Tabs>
                 <TabList className='font-semibold'>
                     <Tab>Description</Tab>

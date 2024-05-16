@@ -8,7 +8,7 @@ const ProductCard = ({ product }) => {
     const { _id, name, description, imageUrl, price } = product
     const givenPrice = price + (price * 0.4);
     return (
-        <div className="card card-compact w-80  shadow-xl">
+        <div className="card card-compact w-full md:w-80  shadow-xl">
             <Link href={`/${_id}`}>
               <div className="h-96">
              <div className='h-1/2'>
