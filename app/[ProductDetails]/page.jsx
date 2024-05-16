@@ -1,7 +1,7 @@
 'use client'
 import Description from '@/components/DetailsComponents/Description';
 import MainDetails from '@/components/DetailsComponents/MainDetails';
-import MayLike from '@/components/DetailsComponents/Maylike';
+import MayLike from '../../components/DetailsComponents/MayLike';
 import SupplierInfo from '@/components/DetailsComponents/SupplierInfo';
 import React, { useEffect, useState } from 'react';
 
